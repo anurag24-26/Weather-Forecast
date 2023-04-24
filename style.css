@@ -1,0 +1,57 @@
+body{
+    background:linear-gradient(-45deg,#7c566c,#c9be22);
+
+}
+.hero{
+  width:100%;
+  height:100vh; 
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: top;
+}
+.card-body{
+    background:linear-gradient(-45deg,#7c566c,#c9be22);
+
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    box-shadow:0 0 20px 10px rgba(0,0,0,0.05) ;
+    margin: 0 30px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.social a .fa-brands {
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5ms;
+}
+.social a::after{
+    content: '';
+    width:100%;
+    height: 100%;
+    top: -98px;
+    left: 0;
+    background:linear-gradient(-45deg,#ed1c94,#ffec17);
+    position: absolute;
+    transition: 0.5s;
+}
+.social a:hover::after{
+    top: 0;
+}
+.social a:hover.fa-brands{
+    color: #fff;
+}
+.container-fluid{
+    background:linear-gradient(-45deg,#7c566c,#c9be22);
+}
