@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(-45deg,#7c566c,#c9be22);
+    background:linear-gradient(-45deg,#067a37,#22c9a5);
 
 }
 .hero{
@@ -11,7 +11,7 @@ body{
   justify-content: top;
 }
 .card-body{
-    background:linear-gradient(-45deg,#7c566c,#c9be22);
+    background:linear-gradient(-45deg,#067a37,#22c9a5);
 
 }
 .social{
@@ -53,5 +53,5 @@ body{
     color: #fff;
 }
 .container-fluid{
-    background:linear-gradient(-45deg,#7c566c,#c9be22);
+    background:linear-gradient(-45deg,#067a37,#22c9a5);
 }
