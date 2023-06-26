@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(-45deg,#067a37,#22c9a5);
+    background:linear-gradient(-45deg,#282b31,#16afca);
 
 }
 .hero{
@@ -11,7 +11,7 @@ body{
   justify-content: top;
 }
 .card-body{
-    background:linear-gradient(-45deg,#067a37,#22c9a5);
+    background:linear-gradient(-100deg,#394e79,#d2dddf);
 
 }
 .social{
@@ -42,7 +42,7 @@ body{
     height: 100%;
     top: -98px;
     left: 0;
-    background:linear-gradient(-45deg,#ed1c94,#ffec17);
+    background:linear-gradient(-45deg,#465864,#3273b4);
     position: absolute;
     transition: 0.5s;
 }
@@ -53,5 +53,23 @@ body{
     color: #fff;
 }
 .container-fluid{
-    background:linear-gradient(-45deg,#067a37,#22c9a5);
+    background:linear-gradient(-100deg,#394e79,#d2dddf);
+}
+.dropdown-menu{
+    position: relative;
+    display: inline block;
+    padding-bottom: 0%;
+}
+.dropdown-item{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px;
+    z-index: 1;
+    
+
+}
+.dropdown-menu:hover .dropdown-item{
+    display: block;
 }
