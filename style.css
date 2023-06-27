@@ -73,3 +73,25 @@ body{
 .dropdown-menu:hover .dropdown-item{
     display: block;
 }
+.containt{
+    width: fit-content;
+    height: fit-content;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:inherit;
+}
+.containt h1{
+    position: inherit;
+    top:100%;
+    left: 150%;
+    transform: translate(100%,50%);
+    color: #020202;
+    font-size: 24px;
+    font-weight: 500;
+    font-style:italic;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
