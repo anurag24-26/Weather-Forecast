@@ -34,3 +34,11 @@ submit.addEventListener("click",(e)=>{
 	e.preventDefault()
 	getWeather(city.value)
 })
+let time=document.getElementById("curent-time");
+setInterval(()  =>{
+	let d=new Date();
+time.innerHTML=d.toLocaleTimeString();
+
+
+})
+
