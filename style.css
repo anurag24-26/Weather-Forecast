@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
 body{
-    background: linear-gradient(319.6deg, rgb(243, 0, 79) 20.5%, rgb(255, 236, 68) 110.9%);
+    background: linear-gradient(319.6deg, rgb(231, 114, 153) 20.5%, rgb(219, 122, 11) 110.9%);
 
 }
 .hero{
@@ -11,7 +18,10 @@ body{
   justify-content: top;
 }
 .card-body{
-    background: linear-gradient(319.6deg, rgb(243, 0, 79) 20.5%, rgb(255, 236, 68) 110.9%);
+    padding: 0%;
+    border:1px solid #9b9292;
+    border-radius: 30px;
+    background: linear-gradient(319.6deg, rgb(231, 114, 153) 20.5%, rgb(224, 123, 27) 110.9%);
 
 }
 .social{
