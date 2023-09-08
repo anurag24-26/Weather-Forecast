@@ -22,6 +22,7 @@ body{
     border:1px solid #9b9292;
     border-radius: 30px;
     background: linear-gradient(319.6deg, rgb(231, 114, 153) 20.5%, rgb(224, 123, 27) 110.9%);
+    margin-right: 3%;
 
 }
 .social{
@@ -86,11 +87,12 @@ body{
 .containt{
     width: fit-content;
     height: fit-content;
+    position: inherit;
+    
     
     display: flex;
     align-items: center;
     justify-content: center;
-    position:inherit;
 }
 .containt h1{
     position: inherit;
@@ -102,6 +104,38 @@ body{
     font-weight: 500;
     font-style:italic;
     letter-spacing: 2px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Poppins',sans-serif;
 
+}
+.searchr{
+    width: 20%;
+    height: 20%;
+    max-width: 700%;
+    outline: none;
+    align-items: center;
+    margin: 5px;
+    
+    padding: 1px;
+    background-color: #b1b9c5;
+    border-radius: 10px;
+    
+}
+.serchbutton{
+    height: 20%;
+    width: 10%;
+   
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    outline: none;
+    background-color: #217474;
+}
+.d-flex{
+    width: 100%;
+    padding: 2%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
