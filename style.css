@@ -6,8 +6,36 @@
     font-family: 'Poppins',sans-serif;
 }
 body{
-    background: linear-gradient(319.6deg, rgb(231, 114, 153) 20.5%, rgb(235, 60, 7) 110.9%);
+    background: black;
 
+}
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 16%;
+    background: transparent;
+    transition: all .50s ease;
+
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    font-size:1rem;
+    font-weight: 500;
+    color: #c3cad5;
+    margin-left:40px ;
+    transition: all .50s ease;
+}
+.navlist a:hover{
+    color: #13bbff;
+    text-shadow: 3px 3px 20px #13bbff,-2px 1px 30px #fff;
 }
 .hero{
   width:100%;
@@ -16,17 +44,22 @@ body{
   align-items: center;
   flex-direction:column;
   justify-content: top;
+
+  color: #d2dddf;
 }
 .card-body{
     padding: 0%;
     border:1px solid #9b9292;
     border-radius: 30px;
-    background: linear-gradient(319.6deg, rgb(231, 114, 153) 20.5%, rgb(224, 123, 27) 110.9%);
+    background: rgb(255,0,31);
+background: linear-gradient(90deg, rgba(255,0,31,1) 7%, rgba(2,0,36,1) 59%, rgba(121,9,22,1) 80%);
     margin-right: 3%;
+    -webkit-text-fill-color: white;
 
 }
 .social{
     display: flex;
+    
 }
 .social a{
     width: 80px;
@@ -39,6 +72,7 @@ body{
     position: relative;
     border-radius: 50%;
     overflow: hidden;
+    background-color:#56ffff ;
 }
 .social a .fa-brands {
     font-size: 30px;
@@ -84,29 +118,7 @@ body{
 .dropdown-menu:hover .dropdown-item{
     display: block;
 }
-.containt{
-    width: fit-content;
-    height: fit-content;
-    position: inherit;
-    
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.containt h1{
-    position: inherit;
-    top:100%;
-    left: 150%;
-    transform: translate(100%,50%);
-    color: #020202;
-    font-size: 24px;
-    font-weight: 500;
-    font-style:italic;
-    letter-spacing: 2px;
-    font-family: 'Poppins',sans-serif;
 
-}
 .searchr{
     width: 20%;
     height: 20%;
@@ -139,3 +151,41 @@ body{
     align-items: center;
     justify-content: center;
 }
+.container h1{
+    font-family: cursive;
+    text-align: center;
+    color: #fff;
+}
+.container h1:hover{
+    color: #56ffff;
+    cursor: pointer;
+    text-shadow: 0 0 10px #10d3c3, 0 0 20px #350202, 0 0 42px #0fa, 0 0 82px rgb(20, 112, 81),0 0 92px #0fa;
+}
+#neubar {
+    background: #fae8d2;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.4)
+  }
+  
+  .nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #ffe7ca, #f5d7b2);
+    box-shadow:  4px 4px 8px #ddc1a0,
+                 -4px -4px 8px #f7e5cc;
+  }
+  #neubar .dropdown-menu a:hover {
+    color: #454545
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar a {
+  
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : #545454
+  }
+  a.navbar-brand {
+    color: #454545
+  }
